@@ -48,3 +48,11 @@ a:visited {
 a:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 1080px) {
+    .content-element {
+        max-width: 90vw;
+        width: calc(100% - 64px);
+        align-self: center;
+    }
+  }
